@@ -1,34 +1,36 @@
-# Install Virtualenv
+Modify Gmail signatures based on http://wescpy.blogspot.com/2016/12/modifying-email-signatures-with-gmail.html
 
-* https://virtualenv.pypa.io/en/stable/
+# Setup
 
-    virtualenv env
+* Install and activate Virtualenv https://virtualenv.pypa.io/en/stable/
 
-    source env/bin/activate
+      virtualenv env
+      source env/bin/activate
 
-# Install Python Depdencies
+* Install Python Dependencies
 
-    pip install -r requirements.txt
+      pip install -r requirements.txt
 
-# Google API
+# Google API Console
 
 * https://console.developers.google.com/apis/credentials
 * Create an OAuth 2.0 client ID of type "Other"
-* Download as client_secret.json
+* Download as `client_secret.json`
 
-# Change Name
+# Configure
 
-* Set name in name.txt
-
-# Change Quotes
-
-* Set quotes in quotes.txt
+* Set name in `name.txt`
+* Set quotes in `quotes.txt`
 
 # Change Signature
 
     python change-signature.py
 
+* Refresh Gmail, compose new message
+
 # Delete Signature
 
     python delete-signature.py
+
+* Refresh Gmail, compose new message
 
