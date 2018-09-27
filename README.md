@@ -24,7 +24,11 @@
 
 * Set quotes in quotes.txt
 
-# Run
+# Change Signature
 
     python change-signature.py
+
+# Delete Signature
+
+    python delete-signature.py
 
