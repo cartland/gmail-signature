@@ -17,6 +17,8 @@
 
 Modify Gmail signatures based on http://wescpy.blogspot.com/2016/12/modifying-email-signatures-with-gmail.html.
 
+![Gmail Signature Example](gmail-signature-example.png "Winner of Who Wants to Be a Millionaire, The Board Game")
+
 # Setup
 
 * Install and activate Virtualenv https://virtualenv.pypa.io/en/stable/
